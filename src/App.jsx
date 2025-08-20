@@ -43,11 +43,11 @@ import Player from './Player';
 function App() {
   // Default and Lady Gaga playlists
   const initialDefaultTracks = [
-    { title: 'Track 1', src: '/music/track1.mp3' },
-    { title: 'Track 2', src: '/music/track2.mp3' },
-    { title: 'Track 3', src: '/music/track3.mp3' },
-    { title: 'Track 4', src: '/music/track4.mp3' },
-    { title: 'Track 5', src: '/music/track5.mp3' },
+    { title: 'Ed Sheeran - Azizam', src: '/music/track1.mp3' },
+    { title: 'Justin Bieber - YUKON', src: '/music/track2.mp3' },
+    { title: 'ROSÉ & Bruno Mars', src: '/music/track3.mp3' },
+    { title: 'Lady Gaga, Bruno Mars', src: '/music/track4.mp3' },
+    { title: 'Golden', src: '/music/track5.mp3' },
   ];
   const ladyGagaTracks = [
     { title: 'Lady Gaga - Killah (Saturday Night Live 2025)', src: '/music/lady gaga/Lady Gaga - Killah (Saturday Night Live_2025).mp3' },
