@@ -4,6 +4,8 @@ import { Box, Grid, Typography, IconButton } from '@mui/material';
 import { FaPlay, FaHeart, FaStepBackward, FaStepForward } from 'react-icons/fa';
 import Playlist from './Playlist';
 import { Button } from '@mui/material';
+
+
 // Wrapper to add 'Add Tracks' button and toggle drag-and-drop area
 function PlaylistWithAddButton(props) {
   const [showDrop, setShowDrop] = React.useState(false);
@@ -55,7 +57,8 @@ function App() {
   ];
 
   const hindiTracks = [
-    { title: 'Aasan Nahin Yahan (Aashiqui 2)', src: '/music/hindi songs/Aasan Nahin Yahan Aashiqui 2 320 Kbps.mp3' }
+    { title: 'Aasan Nahin Yahan (Aashiqui 2)', src: '/music/hindi songs/Aasan Nahin Yahan Aashiqui 2 320 Kbps.mp3' },
+    { title: 'Aavan Jaavan (War 2)', src: '/music/hindi songs/Aavan Jaavan War 2 320 Kbps.mp3' }
   ];
 
   const [defaultTracks, setDefaultTracks] = useState(initialDefaultTracks);
